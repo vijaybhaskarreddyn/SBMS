@@ -16,7 +16,7 @@ public class Application {
 		System.out.println("++++++======>  " + bean.getClass().getName());
 		ContactsMasterEntity entity = new ContactsMasterEntity(103, "VijayaBhaskar", 123459048);
 		bean.save(entity);
-		System.out.println("Total No.Of Records in table " + bean.count());
+		//System.out.println("Total No.Of Records in table " + bean.count());
 		System.out.println("Entity Saved Sucessfully " + entity.toString());
 		ctxt.close();
 	}
